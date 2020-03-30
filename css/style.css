@@ -20,6 +20,7 @@ h1 {
   color: #8b2f97;
   margin: 150px auto 0 auto;
   padding-bottom: 10px;
+  transition-duration: 0.5s;
 
 }
 
@@ -28,13 +29,25 @@ h2 {
   font-size: 2.5em;
   color: #8b2f97;
   font-weight: normal;
+  transition-duration: 1s;
+
 }
+
+
+img:hover {
+  filter: grayscale(100);
+  transition-duration: 1s;
+  transform: scale(2);
+}
+
+
 .pro {
   text-decoration:underline;
 }
 
 .middle-container {
   margin: 100px 0;
+  transition-duration: 1s;
 }
 
 p {
@@ -45,6 +58,8 @@ hr {
   border-bottom: none;
   width: 4%;
   margin: 100px auto;
+  transition-duration: 0.5s;
+  transition-property: translate;
 
 }
 
@@ -52,6 +67,7 @@ a {
   color: #8b2f97;
   margin: 10px 20px;
   text-decoration: none;
+  transition-duration: 1s;
 }
 
 
